@@ -1,0 +1,105 @@
+/* message order account */
+
+.order__message {
+    background-color: transparent;
+}
+
+.box__message__login {
+    padding: 0 5px;
+    margin-top: 25px;
+}
+
+
+/* Order & menu foods and drinks */
+
+.select__menu {
+    cursor: pointer;
+}
+
+/* order */
+
+.menu__order__foods {
+    background-color: lightblue;
+}
+
+.menu__order__drink {
+    background-color: lightblue;
+}
+
+/* order empty */
+
+.empty__order {
+    background-color: antiquewhite;
+}
+
+/* total payment & btn order */
+
+.total {
+    padding: 0 20px 0 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+}
+
+.total__payment__container {
+    flex-basis: 80%;
+    font-size: 25px;
+}
+
+.btn__remove {
+    flex-basis: 20%;
+}
+
+.btn__remove button {
+    width: 100%;
+    background-color: transparent;
+    /*  #6bc0dd */
+    border: none;
+    border-radius: 5px;
+    color: rgb(204, 60, 108);
+    padding: 6px;
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn__remove i {
+    font-size: 29px;
+}
+
+/* btn order */
+
+.btn__order {
+    padding: 2px 20px;
+}
+
+.btn__order button {
+    width: 100%;
+    margin: 10px 30px;
+    background-color: #0c7ca5;
+    /*  #6bc0dd */
+    border: 2px solid #0c7ca5;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 5px 0 13px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* radio btn shipping order */
+
+.radio__btn__delivery {
+    padding: 3px 10px 23px 10px;
+    text-align: center;
+}
+
+.shipping__method label {
+    cursor: pointer;
+    padding: 13px 5px;
+}
+
+.left__label__radio {
+    margin-right: 5px;
+}

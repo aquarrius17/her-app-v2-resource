@@ -1,0 +1,201 @@
+/* not login account */
+
+.account__not__login {
+    padding: 20% 10px 0 10px;
+    text-align: center;
+    background: -webkit-linear-gradient(80deg, #5993E5, #62E3E9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.account__not__login i {
+    font-size: 155px;
+}
+
+.detail__account {
+    padding: 0 0 10px 0;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.username__account > p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+.username__account figcaption {
+    color: black;
+    font-weight: lighter;
+}
+
+.description__login {
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.btn__login__container {
+    margin: 10px 5px;
+    text-align: center;
+}
+
+.btn__login__container button {
+    width: 80%;
+    background: -webkit-linear-gradient(30deg, #5993E5, #62E3E9);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 32px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.other__features {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    padding: 0 7%;
+}
+
+.other__features button {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 17px;
+    color: #4c86d6; /* old 4c86d6, new 1c89ad */
+    padding: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.other__features i {
+    font-size: 27px;
+}
+
+.other__features figcaption {
+    font-size: 12px;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+}
+
+
+
+/* successful login account */
+
+.account__successful__login {
+    padding: 20% 5% 0 5%;
+}
+
+.account__successful__login img {
+    min-height: 140px;
+    max-width: 140px;
+    border-radius: 180px;
+    border: 8px solid #d1e9f1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn__logout__container {
+    margin: 25px 5px 0 5px;
+    text-align: center;
+}
+
+.btn__logout__container button {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #da1e5c;
+    padding: 12px 16px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* hidden display */
+
+.hidden {
+    display: none;
+}
+
+
+/* result other features */
+
+.result__other__features {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.result__feature__container {
+    display: flex;
+    flex-direction: row;
+    padding: 7px 15px;
+    margin: 5px 0;
+    background-color: #daeef5;
+    font-size: 14px;
+    color: black;
+    border-radius: 8px;
+}
+
+.result__feature {
+    flex-basis: 85%;
+}
+
+.close__result {
+    flex-basis: 15%;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: right;
+}
+
+.failed__result {
+    background-color: antiquewhite;
+}
+
+
+/* send messages feature */
+
+.send__messages__container {
+    background-color: #daeef5;
+    border-radius: 8px;
+}
+
+.input__send__messages {
+    padding: 0 10px 10px 10px;
+}
+
+.input__send__messages input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 13px 20px;
+    margin: 5px 0;
+    border: 2px solid #1688b1; 
+    /* #afdff0 */
+    background-color: transparent;
+}
+
+.input__send__messages label {
+    font-size: 12px;
+    margin: 0 8px;
+}
+
+.input__send__messages button {
+    width: 100%;
+    background-color: #0c7ca5;
+    /*  #6bc0dd */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    font-size: 15px;
+}
